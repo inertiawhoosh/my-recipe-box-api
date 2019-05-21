@@ -20,7 +20,6 @@ const serializeRecipe = recipe => ({
 
 recipesRouter
   .route('/')
-
   .get((req, res, next) => {
     RecipesService.getAllRecipes(req.app.get('db'))
       .then(recipes => {

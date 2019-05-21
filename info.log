@@ -1,0 +1,45 @@
+{"message":"title is required","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"insert into \"recipes\" (\"cooking_speed\", \"ingredients\", \"instructions\", \"name\", \"notes\", \"url\") values ($1, $2, $3, $4, $5, $6) returning * - duplicate key value violates unique constraint \"recipes_pkey\"","level":"error"}
+{"message":"Recipe with id 123 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 123 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"url is required","level":"error"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"insert into \"recipes\" (\"cooking_speed\", \"ingredients\", \"instructions\", \"name\", \"notes\", \"url\") values ($1, $2, $3, $4, $5, $6) returning * - duplicate key value violates unique constraint \"recipes_pkey\"","level":"error"}
+{"message":"Recipe with id 123 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 123 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"url is required","level":"error"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"Invalid url 'bad.url' supplied","level":"error"}
+{"message":"Recipe with id 123456 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 123 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 123 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"url is required","level":"error"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"Recipe with id 1 created.","level":"info"}
+{"message":"Invalid url 'bad.url' supplied","level":"error"}
+{"message":"Recipe with id 123456 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"Recipe with id 2 not found.","level":"error"}

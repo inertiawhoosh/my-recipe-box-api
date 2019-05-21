@@ -43,3 +43,4 @@
 {"message":"Recipe with id 2 not found.","level":"error"}
 {"message":"Recipe with id 2 not found.","level":"error"}
 {"message":"Recipe with id 2 not found.","level":"error"}
+{"message":"name is required","level":"error"}

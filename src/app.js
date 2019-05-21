@@ -5,6 +5,7 @@ const cors = require('cors')
 const {CLIENT_ORIGIN}=require('./config')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
+const RecipesService = require('./recipes-service')
 
 const app = express()
 
@@ -19,6 +20,14 @@ app.use(cors({
 );
 app.use(helmet())
 
+app.get('/recipes', (req, res, next) => {
+  const knexInstance = req.app.get('db')
+  RecipesService.getAllRecipes(knexInstance)
+    .then(recipes => {
+      res.json(recipes)
+    })
+    .catch(next)
+})
 app.get('/', (req, res) => {
 	res.send('Hello, world!')
 })

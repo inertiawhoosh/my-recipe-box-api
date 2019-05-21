@@ -44,3 +44,7 @@
 {"message":"Recipe with id 2 not found.","level":"error"}
 {"message":"Recipe with id 2 not found.","level":"error"}
 {"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"select * from \"recipes\" where \"id\" = $1 limit $2 - invalid input syntax for integer: \"recipes\"","level":"error"}
+{"message":"select * from \"recipes\" where \"id\" = $1 limit $2 - invalid input syntax for integer: \"recipes\"","level":"error"}

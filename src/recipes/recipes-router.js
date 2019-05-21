@@ -11,7 +11,7 @@ const bodyParser = express.json()
 const serializeRecipe = recipe => ({
   id: recipe.id,
   name: xss(recipe.name),
-  url: recipe.url,
+  url: xss(recipe.url),
   ingredients: xss(recipe.ingredients),
   instructions: xss(recipe.instructions),
   notes: xss(recipe.notes),
@@ -19,7 +19,7 @@ const serializeRecipe = recipe => ({
 })
 
 recipesRouter
-  .route('/')
+  .route('/recipes')
   .get((req, res, next) => {
     RecipesService.getAllRecipes(req.app.get('db'))
       .then(recipes => {
@@ -50,7 +50,6 @@ recipesRouter
       newRecipe
     )
       .then(recipe => {
-        logger.info(`Recipe with id ${recipe.id} created.`)
         res
           .status(201)
           .location(path.posix.join(req.originalUrl, `${recipe.id}`))

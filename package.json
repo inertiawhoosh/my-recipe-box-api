@@ -23,6 +23,7 @@
     "knex": "^0.16.5",
     "morgan": "^1.9.1",
     "pg": "^7.11.0",
+    "react-confirm-alert": "^2.4.1",
     "valid-url": "^1.0.9",
     "winston": "^3.2.1",
     "xss": "^1.0.6"
